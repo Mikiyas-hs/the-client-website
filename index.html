@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RedPers</title>
+        <link href="styles/styles.css" rel="stylesheet">
         <!--link naar css-->
     </head>
     <body>
@@ -12,15 +13,23 @@
             <h1>RedPers</h1>
         </header>
     <!--Navigatiebalk (menu) voor het navigeren door de website-->
-    <nav>
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    <nav class="menu">
+        <label for="menu-toggle" class="close-icon">&times;</label>
         <ul>
-            <li><a href="#">Voorpagina</a></li>
             <li><a href="#">Binneland</a></li>
             <li><a href="#">Buitenland</a></li>
+            <li><a href="#">Columns</a></li>
+            <li><a href="#">Economie</a></li>
             <li><a href="#">Kunst & Media</a></li>
+            <li><a href="#">Podcast</a></li>
             <li><a href="#">Politiek</a></li>
+            <li><a href="#">Wetenschap</a></li>
         </ul>
     </nav>
+
+    
 
     <!--Main content: belangrijkste inhoudsgedeelte van de pagina-->
     <main>

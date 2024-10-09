@@ -43,4 +43,80 @@ Beschrijving
 <img src="/images/Schermafbeelding 2024-10-10 003139.png">
 
 Kenmerken 
-- 
+- de html is opgebouwd met semantische elementen zoals header, nav, main en article in de header gebruik ik een input van het type checkbox met het Id menu-toggle om een klikbare toggle te creeeren voor de navigatie. Deze checkbox word gekoppeld zoals je kunt zien met een label dat als een hamburger-menu wordt weergegeven door drie span-elementen die vormen dan die 3 strepen onder elkaar waardoor je een hamburger menu kunt zien en die elementen zitten binnen de menu-button
+<label for="menu-toggle" class="menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+in het main gedeelte van de HTML plaats ik het belangrijkste artikel, dat een titel heeft in een H1-element en verschillende paragrafen in een p-elementen. Er is ook een afbeelding met de class "bloemetje", die wordt gepositioneerd met css De knoppen onder het artikel (bijv voor het beluisteren van de artikel) zijn html button-elementen:
+ <button>Artikel beluisteren</button>
+        <button class="opslaan">opsln</button>
+        <button class="verzenden">vrzn</button>
+        <button class="translate">trnsl</button>
+
+
+- met css heb ik een aantal custom fonts gebruikt die we opgestuurd kregen zoals tiempos die ik via @font-face in de Css heb ingeladen
+
+@font-face {
+    font-family: tiempos;
+    font-weight: 700;
+    src: url(../fonts/TiemposHeadline-Bold.otf) format('opentype');
+}
+@font-face {
+    font-family: tiempos;
+    font-weight: 400;
+    src: url(../fonts/TiemposText-Regular.otf) format('opentype');
+}
+@font-face {
+    font-family: tiempos;
+    font-weight: 400; 
+    font-style: italic;
+    src: url(../fonts/TiemposText-RegularItalic.otf) format('opentype');
+}
+
+in het header gedeelte gebruikte ik flexbox om de elementen te centreren. Dit wordt gedaan met de display: flex en justify-content: center:
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ffffff;
+    max-width: 100%;
+    height: 50px;
+    border: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+voor het menu is er een checkbox toegepast, waarbij de navigatie wordt weergegeven of verborgen afhankelijk van of de checkbox (#menu-toggle) is aangevinkt. Dit wordt in de Css gedaan
+
+header:has(input:checked) {
+    nav.menu {
+        display: block;
+    }
+}
+
+het menu zelf is verborgen met display: none, maar wanneer de checkbox is aangevinkt, wordt dit aangepast naar de display: block 
+
+De knoppen voor acties zoals opslaan, verzenden en translate hebben specifieke klassen zoals .opslaan en .verzenden ze krijgen een eenvoudige styling met een licht transparante achtergrondkleur afgeronde hoeken 
+.opslaan{
+    display: inline-block;
+    background-color: rgba(133, 154, 162, 0.227);
+    box-shadow: none;
+    border: none;
+    color: rgb(124, 114, 114);
+    width: 45px;
+    padding: 14px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 30px;
+    margin-left: 45px; 
+}
+
+ tijdens dit project heb ik me gehouden aan de werkmethode mobile first waardoor ik dus als eerst was begonnen met de site maken voor op de telefoon de volgende stap zou dan zijn om het voor op de desktop toegankelijk te maken 
+
+ ik heb in dit project (nog) geen gebruik gemaakt van javascript wat betekent dat het project puur op html en css gebaseerd is de reden dat ik dit heb gedaan is omdat javascript ervoor kan zorgen dat een site langzamer laad en moeilijker te onderhouden is en wat lastiger toegankelijk kan zijn voor alle gebruikers en apparaten en om dit te voorkomen wilde ik zoveel mogelijk html en css gaan gebruiken in dit project 

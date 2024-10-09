@@ -37,6 +37,10 @@ Beschrijving
 - mijn project lijkt precies op het design die mij werd opgestuurd alleen. het enige wat mijn project nog niet heeft ten opzichte van de het design is de footer,doneer gedeelte en over de artiest voor de rest is de website identiek aan het design die ons werd opgestuurd 
 
 - wat je met de pagina kunt doen is artikelen van auteurs lezen en uiteindelijk ook meer over hun te weten te komen je kan uiteindelijk ook geld doneren aan redpers en kennis maken met andere artikelen hierdoor maak je automatisch ook kennis met andere auteurs 
+<img src="/images/Schermafbeelding 2024-10-10 002929.png">
+<img src="/images/Schermafbeelding 2024-10-10 002412.png">
+<img src="/images/Schermafbeelding 2024-10-10 002946.png">
+<img src="/images/Schermafbeelding 2024-10-10 003139.png">
 
 Kenmerken 
 - 

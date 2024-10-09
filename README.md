@@ -120,3 +120,9 @@ De knoppen voor acties zoals opslaan, verzenden en translate hebben specifieke k
  tijdens dit project heb ik me gehouden aan de werkmethode mobile first waardoor ik dus als eerst was begonnen met de site maken voor op de telefoon de volgende stap zou dan zijn om het voor op de desktop toegankelijk te maken 
 
  ik heb in dit project (nog) geen gebruik gemaakt van javascript wat betekent dat het project puur op html en css gebaseerd is de reden dat ik dit heb gedaan is omdat javascript ervoor kan zorgen dat een site langzamer laad en moeilijker te onderhouden is en wat lastiger toegankelijk kan zijn voor alle gebruikers en apparaten en om dit te voorkomen wilde ik zoveel mogelijk html en css gaan gebruiken in dit project 
+
+
+de bronnen die ik voor dit project heb gebruikt zijn:
+https://stackoverflow.com/questions/48207583/spacing-between-text-with-line-height 
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+https://reintech.io/blog/creating-responsive-hamburger-menu-button-with-css

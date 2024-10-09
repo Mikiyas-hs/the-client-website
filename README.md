@@ -26,3 +26,17 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
+
+
+Korte uitleg over de opdracht:
+
+Intro 
+- Deze sprint ging ik werken aan een webpage voor redpers. de bedoeling van deze opdracht was dat wij een nieuw design opgestuurd kregen en dat we daarmee aan de slag gingen door de website te gaan coderen dmv html/css en javascript. het doel was dat we het nieuwe design gingen waarmaken en dat de website responsive zou zijn voor zowel desktop als telefoon. https://mikiyas-hs.github.io/the-client-website/
+
+Beschrijving 
+- mijn project lijkt precies op het design die mij werd opgestuurd alleen. het enige wat mijn project nog niet heeft ten opzichte van de het design is de footer,doneer gedeelte en over de artiest voor de rest is de website identiek aan het design die ons werd opgestuurd 
+
+- wat je met de pagina kunt doen is artikelen van auteurs lezen en uiteindelijk ook meer over hun te weten te komen je kan uiteindelijk ook geld doneren aan redpers en kennis maken met andere artikelen hierdoor maak je automatisch ook kennis met andere auteurs 
+
+Kenmerken 
+- 
